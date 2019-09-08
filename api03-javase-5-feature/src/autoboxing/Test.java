@@ -2,7 +2,9 @@ package autoboxing;
 
 public class Test {
 
+	@SuppressWarnings("unused")
 	public static void main(String[] args) {
+		
 		int i = 10;
 		
 		Integer n = 20;

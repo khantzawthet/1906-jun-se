@@ -23,6 +23,7 @@ public class DynamicArray<T> implements Array<T>{
 		array = temp;
 	}
 
+	@SuppressWarnings("unchecked")
 	@Override
 	public T get(int index) {
 		return (T)array[index];
